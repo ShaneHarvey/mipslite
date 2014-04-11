@@ -24,4 +24,6 @@
 
 function mipsLite(){
 	"use strict";
+	var cpu = new SingleCycleCPU();
+	cpu.run();
 }
